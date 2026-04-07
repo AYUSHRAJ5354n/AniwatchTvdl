@@ -1,3 +1,4 @@
+#@cantarellabots
 from pyrogram.enums import ParseMode
 from cantarella.core.proxy import get_random_proxy, get_proxy_dict
 import asyncio
@@ -13,7 +14,7 @@ from cantarella.core.database import db
 from cantarella.telegram.pages import post_to_main_channel
 from cantarella.core.anilist import TextEditor
 from config import SET_INTERVAL, TARGET_CHAT_ID, MAIN_CHANNEL, LOG_CHANNEL
-
+#@cantarellabots
 BASE_URL = "https://aniwatchtv.to"
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -293,3 +294,4 @@ async def ongoing_task(client: Client):
             pass  # Paused via /settings, loop stays alive
 
         await asyncio.sleep(SET_INTERVAL)
+

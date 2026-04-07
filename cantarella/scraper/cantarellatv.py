@@ -1,3 +1,4 @@
+#@cantarellabots
 from cantarella.core.proxy import get_random_proxy, get_proxy_dict
 from pathlib import Path
 from queue import Queue
