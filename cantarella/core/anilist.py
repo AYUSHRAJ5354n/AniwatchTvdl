@@ -42,7 +42,7 @@ CAPTION_FORMAT = """
 ➥ Gᴇɴʀᴇs:- {genres}
 ➥ Aᴜᴅɪᴏ:- {audio}</i></blockquote>
 <b>✦━━━━━━━━━━━━━━━━━━━━━━━━✦</b>
-<b><i>⌬ Pᴏᴡᴇʀᴇᴅ ʙʏ:- @cantarellabots</i></b>
+<b><i>⌬ Pᴏᴡᴇʀᴇᴅ ʙʏ:- @Donghua_Xin</i></b>
 """
 
 GENRES_EMOJI = {
